@@ -1,0 +1,32 @@
+{
+  "name": "originai-product-spec",
+  "owner": {
+    "name": "Origin",
+    "email": "hello@getoriginai.com"
+  },
+  "metadata": {
+    "description": "Write product specs as RPML files in your repo and review them as a live canvas in a Claude Artifact. Comment on the canvas, Claude edits the spec. No account, no token."
+  },
+  "plugins": [
+    {
+      "name": "originai-product-spec",
+      "source": "./",
+      "description": "Write product specs as RPML files in your repo and review them as a live canvas in a Claude Artifact. Comment on the canvas, Claude edits the spec. No account, no token.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Origin",
+        "email": "hello@getoriginai.com"
+      },
+      "homepage": "https://getoriginai.com",
+      "repository": "https://github.com/21stware/originai-product-spec",
+      "license": "MIT",
+      "keywords": [
+        "origin",
+        "rpml",
+        "product-spec",
+        "artifact",
+        "canvas"
+      ]
+    }
+  ]
+}
